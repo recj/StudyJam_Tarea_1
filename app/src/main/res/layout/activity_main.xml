@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="0dp"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context="com.example.rodrigo.studyjam_tarea1.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+
+        android:layout_height="250dp"
+        android:background="@drawable/logo2"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:weightSum="1"
+        android:background="#fff">
+
+
+        <TextView
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Te damos la bienvenida a "
+            android:textColor="?attr/colorControlNormal"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginBottom="12dp"
+            android:id="@+id/textView2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pinterest"
+            android:textColor="?attr/colorControlNormal"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/linearLayout2"
+            android:layout_alignStart="@+id/linearLayout2"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:ems="10"
+            android:textColorHint="#aba5a5"
+            android:background="@drawable/edt"
+            android:hint="Correo electrónico"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="4dp"
+            android:textAllCaps="true"
+            android:textSize="14dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:textAllCaps="false"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/a"
+            android:elevation="0dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:text="Continuar" />
+        <Button
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Continúar con Facebook"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="@drawable/b"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.08"
+            android:background="@drawable/c"
+            android:text="Continúa con Google"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="0dp"
+            android:text="Condiciones del servicio y política de privacidad"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:textSize="12dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>
